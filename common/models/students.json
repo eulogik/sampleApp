@@ -1,0 +1,23 @@
+{
+  "name": "students",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "dob": {
+      "type": "date"
+    },
+    "roll": {
+      "type": "number"
+    },
+    "class": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
